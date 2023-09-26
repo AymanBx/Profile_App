@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "KPHDv9QMGvSXJNXFpDfGOdYD17N2": {
+      "type": "object",
+      "properties": {
+        "Email": {
+          "type": "string",
+          "format": "email"
+        },
+        "ID": {
+          "type": "string"
+        },
+        "Image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "Sign_Up_Date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": ["Email", "ID", "Image", "Name", "Sign_Up_Date"]
+    },
+    "highScore": {
+      "type": "integer"
+    },
+    "vHcpPlQtgkYHrWUeN9eyTcSmOm82": {
+      "type": "object",
+      "properties": {
+        "Email": {
+          "type": "string",
+          "format": "email"
+        },
+        "ID": {
+          "type": "string"
+        },
+        "Image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "Sign_Up_Date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": ["Email", "ID", "Image", "Name", "Sign_Up_Date"]
+    }
+  }
+}
